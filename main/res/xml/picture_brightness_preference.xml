@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+       android:key="picture_brightness"
+        android:entries="@array/picture_brightness_preference"
+        android:entryValues="@array/picture_brightness_preference_values"
+        android:title="图片亮度"
+        android:defaultValue="3"
+        android:negativeButtonText="取消"
+        />
+</PreferenceScreen>

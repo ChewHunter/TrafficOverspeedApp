@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <ImageView
+        android:id="@+id/carImage"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        android:src="@drawable/img1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="7"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="end"
+            android:textAlignment="textEnd"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="车牌号: "
+            android:layout_gravity="end" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="end"
+            android:textAlignment="textEnd"
+            android:autoLink="all"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:text="违章速度: "
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#666666"
+            android:gravity="end"
+            android:textAlignment="textEnd"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:layout_weight="2"
+            android:text="违章时间: "
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/carId"
+            android:paddingLeft="5dp"
+            android:background="#007fff"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:autoLink="all"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:text="湘G.34771"
+            />
+        <TextView
+            android:id="@+id/carSpeed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:autoLink="all"
+            android:textColor="#f00000"
+            android:textSize="15sp"
+            android:text="80km/h"
+            />
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#666666"
+            android:autoLink="all"
+            android:textSize="14sp"
+            android:layout_weight="2"
+            android:text="2018/7/5  20:20:10"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

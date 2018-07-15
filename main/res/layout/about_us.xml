@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="#64D6EC"
+        android:layout_marginBottom="150dp"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:text="       本软件用于交通超速车辆统计。"
+        />
+
+</android.support.constraint.ConstraintLayout>

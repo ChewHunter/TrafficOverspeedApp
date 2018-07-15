@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="选择省份"
+        android:entries="@array/select_province_preference"
+        android:entryValues="@array/select_province_preference_values"
+        android:defaultValue="1"
+        android:negativeButtonText="取消"
+        android:key="select_province"/>
+    <SwitchPreference
+        android:title="车牌方向（反/正）"
+        android:key="platenumber_direction"/>
+    <SwitchPreference
+        android:title="车牌类型（小/大）"
+        android:key="plate_size"/>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <MultiSelectListPreference
+        android:key="picture_name_preferences"
+        android:entries="@array/picture_name_preferences"
+        android:entryValues="@array/picture_name_preferences_values"
+        android:title="图片文件名设置"
+        android:summary="文件输出格式"
+        android:negativeButtonText="取消"
+        android:positiveButtonText="确定"
+        />
+
+</PreferenceScreen>

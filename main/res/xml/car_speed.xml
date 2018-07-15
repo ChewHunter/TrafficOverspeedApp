@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <ListPreference
+    android:defaultValue="5"
+    android:entries="@array/pref_speed_limit_1"
+    android:entryValues="@array/pref_speed_limit_1_values"
+    android:key="speed_limit_1"
+    android:negativeButtonText="@null"
+    android:positiveButtonText="@null"
+    android:title="小型车限速" />
+    <ListPreference
+        android:defaultValue="10"
+        android:entries="@array/pref_speed_limit_2"
+        android:entryValues="@array/pref_speed_limit_2_values"
+        android:key="speed_limit_2"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="大型车限速" />
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="kakou_function"
+        android:title="启用卡口功能" />
+
+    <!-- Allows the user to choose a ringtone in the 'notification' category. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <!-- NOTE: RingtonePreference's summary should be set to its value by the activity code. -->
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="low_speed_limit"
+        android:title="启用低速限速" />
+    <ListPreference
+        android:defaultValue="5"
+        android:entries="@array/pref_speed_limit_3"
+        android:entryValues="@array/pref_speed_limit_3_values"
+        android:dependency="@string/low_speed_limit"
+        android:key="speed_limit_3"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="低速限速" />
+
+</PreferenceScreen>

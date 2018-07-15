@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="波特率"
+        android:key="baud_rate"
+        android:entries="@array/baud_rate_preference"
+        android:entryValues="@array/baud_rate_preference_values"
+        android:defaultValue="8"/>
+    <ListPreference
+        android:title="数据位"
+        android:key="data_amount"
+        android:entries="@array/data_amount_preference"
+        android:entryValues="@array/data_amount_preference_values"
+        android:defaultValue="3"/>
+    <ListPreference
+        android:title="停止位"
+        android:key="data_stop"
+        android:entries="@array/data_stop_preference"
+        android:entryValues="@array/data_stop_preference_values"
+        android:defaultValue="2"
+        />
+    <ListPreference
+        android:title="流控"
+        android:key="flow_control"
+        android:entries="@array/flow_control_preference"
+        android:entryValues="@array/flow_control_preference_values"
+        android:defaultValue="2"
+        />
+
+
+</PreferenceScreen>

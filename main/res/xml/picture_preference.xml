@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <MultiSelectListPreference
+        android:key="picture_preference"
+        android:negativeButtonText="取消"
+        android:positiveButtonText="确定"
+        android:summary="图片合成显示信息"
+        android:entries="@array/picture_preferences"
+        android:entryValues="@array/picture_preferences_values"
+        android:title="图片叠加信息"/>
+    <ListPreference
+        android:key="picture_preference_position"
+        android:negativeButtonText="取消"
+        android:summary="图片合成位置"
+        android:entries="@array/picture_preference_position"
+        android:entryValues="@array/picture_preference_position_values"
+        android:title="图片叠加信息"/>
+
+</PreferenceScreen>

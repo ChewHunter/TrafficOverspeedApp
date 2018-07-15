@@ -1,0 +1,55 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="com.example.rui.app.setting$BlackListPreferenceFragment"
+        android:title="黑名单" />
+
+    <header
+        android:fragment="com.example.rui.app.setting$WhiteListPreferenceFragment"
+        android:title="白名单" />
+
+    <header
+        android:fragment="com.example.rui.app.setting$PicturePreferenceFragment"
+        android:title="图片叠加信息" />
+    <!--<header-->
+        <!--android:fragment="com.example.rui.app.setting$PictureCompoundPreferenceFragment"-->
+        <!--android:title="图片合成信息" />-->
+    <header
+        android:fragment="com.example.rui.app.setting$PictureNamePreferenceFragment"
+        android:title="图片文件名设置" />
+    <header
+        android:fragment="com.example.rui.app.setting$FillLightPreferenceFragment"
+        android:title="补光灯设置" />
+    <header
+        android:fragment="com.example.rui.app.setting$CameraRestartPreferenceFragment"
+        android:title="相机重启和恢复" />
+    <header
+        android:fragment="com.example.rui.app.setting$CameraCOMPortPreferenceFragment"
+        android:title="相机COM口设置" />
+    <!--<header-->
+        <!--android:fragment="com.example.rui.app.setting$CameraFTPPreferenceFragment"-->
+        <!--android:title="相机FTP设置" />-->
+    <header
+        android:fragment="com.example.rui.app.setting$PlateNumberPreferenceFragment"
+        android:title="车牌参数设置" />
+    <header
+        android:fragment="com.example.rui.app.setting$PictureBrightnessPreferenceFragment"
+        android:title="图片亮度设置" />
+    <!--<header-->
+        <!--android:fragment="com.example.rui.app.setting$DataManagePreferenceFragment"-->
+        <!--android:title="数据管理设置" />-->
+    <header
+        android:fragment="com.example.rui.app.setting$GPSPreferenceFragment"
+        android:title="GPS设置" />
+    <header
+        android:fragment="com.example.rui.app.setting$LocalNetworkPreferenceFragment"
+        android:title="本地网络设置" />
+    <!--<header-->
+        <!--android:fragment="com.example.rui.app.setting$LocalFTPPreferenceFragment"-->
+        <!--android:title="本地FTP下载" />-->
+    <!--<header-->
+        <!--android:fragment="com.example.rui.app.setting$RemoteFTPPreferenceFragment"-->
+        <!--android:title="远程FTP服务器设置" />-->
+</preference-headers>

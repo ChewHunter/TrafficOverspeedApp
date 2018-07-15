@@ -1,0 +1,66 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_snapshot_direction"
+        android:entryValues="@array/pref_snapshot_direction_values"
+        android:key="car_direction"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="抓拍方向" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_snapshots_amount"
+        android:entryValues="@array/pref_snapshots_amount_values"
+        android:key="snapshots_amount"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="抓拍张数" />
+
+    <!--<EditTextPreference-->
+        <!--android:capitalize="words"-->
+        <!--android:defaultValue="@string/pref_default_display_name"-->
+        <!--android:inputType="number"-->
+        <!--android:key="cars_amount"-->
+        <!--android:negativeButtonText="确定"-->
+        <!--android:positiveButtonText=""-->
+        <!--android:maxLines="1"-->
+        <!--android:selectAllOnFocus="true"-->
+        <!--android:singleLine="true"-->
+        <!--android:title="@string/pref_title_display_name" />-->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_snapshot_sensitivity"
+        android:entryValues="@array/pref_snapshot_sensitivity_values"
+        android:key="snapshot_sensitivity"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_snapshot_sensitivity" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_snapshots_angle"
+        android:entryValues="@array/pref_snapshots_angle_values"
+        android:key="snapshot_angle"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="抓拍角度" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_superposition_direction"
+        android:entryValues="@array/pref_superposition_direction_values"
+        android:key="superposition_direction"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="叠加方向" />
+
+
+</PreferenceScreen>
